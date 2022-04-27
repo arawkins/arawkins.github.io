@@ -1,0 +1,35 @@
+.interior {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  flex-direction: row;
+  display: flex;
+  padding-top: 30px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.breadcrumbs a {
+  font-weight: bold;
+}
+
+.icon {
+  margin: 10px 0;
+}
+
+main {
+  flex-grow: 25;
+}
+
+h1 {
+  font-size: 4em;
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=interior.css.map */

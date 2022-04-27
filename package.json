@@ -1,0 +1,17 @@
+{
+    "name": "rawkins",
+    "version": "1.0.0",
+    "description": "Rawkins.com website",
+    "main": "index.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass": "sass scss:css -w",
+        "browser-sync": "browser-sync --watch --no-notify --server",
+        "dev": "npm run sass & npm run browser-sync"
+    },
+    "author": "Alan Rawkins",
+    "license": "ISC"
+}

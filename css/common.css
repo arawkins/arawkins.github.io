@@ -1,0 +1,95 @@
+/* desert colors:
+@very-light-gray: #c5c8c6;
+@light-gray: #969896;
+@gray: #373b41;
+@dark-gray: #282a2e;
+@very-dark-gray: #1d1f21;
+
+@cyan: #8abeb7;
+@blue: #8AC9DF;
+@purple: #b294bb;
+@green: #98FB97;
+@red: #F29D99;
+@orange: #de935f;
+@light-orange: #f0c674;
+@yellow: #F2F997;
+@brown: #333333;
+*/
+/* Common CSS styles
+Includes font choice, and circle nav button styles
+*/
+html {
+  font-family: "Roboto Serif";
+  background: #333333;
+  color: #c5c8c6;
+}
+
+.color_web {
+  color: #F2F997;
+}
+
+.bg_color_web {
+  background-color: #F2F997;
+}
+
+.color_games {
+  color: #de935f;
+}
+
+.bg_color_games {
+  background-color: #de935f;
+}
+
+.color_writing {
+  color: #8abeb7;
+}
+
+.bg_color_writing {
+  background-color: #8abeb7;
+}
+
+.circle {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  margin: 10px;
+  font-size: 1em;
+  color: #100c08;
+  font-weight: bold;
+  width: 85px;
+  height: 50px;
+  padding-top: 35px;
+}
+
+.large.circle {
+  width: 150px;
+  height: 85px;
+  padding-top: 65px;
+  font-size: 1.2em;
+}
+
+.icon {
+  width: 65px;
+  height: 65px;
+  margin: 0 10px;
+  color: #969896;
+  text-indent: -9999em;
+  background-size: 100%;
+  display: block;
+}
+
+.icon.github {
+  background-image: url(../gfx/icon-github-light.png);
+}
+
+.icon.linkedin {
+  background-image: url(../gfx/icon-linkedin-light.png);
+}
+
+.icon.email {
+  background-image: url(../gfx/icon-email-light.png);
+}
+
+/*# sourceMappingURL=common.css.map */

@@ -1,0 +1,36 @@
+.home {
+    max-width:610px;
+    margin:0 auto;
+    padding-top:100px;
+}
+
+.home h1 {
+    font-weight: 700;
+    font-size:5em;
+    text-align: center;
+    margin:20px 0 10px 0;
+}
+
+.home p {
+    text-align:center;
+    font-size:1.3em;
+    line-height:1.4em;
+    margin-top:0;
+}
+
+.home ul, .home li {
+    list-style:none;
+    margin-left:0;
+    padding-left:0;
+}
+
+.menu {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-top:10px;
+}
+
+.menu a {
+    display:block;
+}
