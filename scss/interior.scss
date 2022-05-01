@@ -1,9 +1,10 @@
 .interior {
     width:100%;
-    max-width:1200px;
+    max-width:1024px;
     margin:0 auto;
     padding-top:30px;
 }
+
 main {
     display:block;
     float:right;
@@ -31,6 +32,7 @@ main {
 
 h1 {
     font-size:4em;
+    font-weight:900;
     margin:0;
     padding:0;
 }

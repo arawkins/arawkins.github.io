@@ -10,6 +10,15 @@ html {
     color:theme.$text-color;
 }
 
+p, li {
+    line-height:1.6em;
+    font-size:1.2em;
+    // font-family: "Times", "Times New Roman", serif;
+}
+
+a {
+    color: theme.$link-color;
+}
 .color_web {
     color:theme.$web-color;
 }
@@ -42,12 +51,12 @@ html {
     vertical-align: middle;
     border-radius: 50%;
     margin:10px;
-    font-size:1em;
+    font-size:0.8em;
     color:#100c08;
     font-weight:bold;
-    width:85px;
-    height:50px;
-    padding-top:35px;
+    width:65px;
+    height:40px;
+    padding-top:25px;
 }
 
 .large.circle {
