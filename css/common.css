@@ -1,27 +1,10 @@
-/* desert colors:
-@very-light-gray: #c5c8c6;
-@light-gray: #969896;
-@gray: #373b41;
-@dark-gray: #282a2e;
-@very-dark-gray: #1d1f21;
-
-@cyan: #8abeb7;
-@blue: #8AC9DF;
-@purple: #b294bb;
-@green: #98FB97;
-@red: #F29D99;
-@orange: #de935f;
-@light-orange: #f0c674;
-@yellow: #F2F997;
-@brown: #333333;
-*/
 /* Common CSS styles
 Includes font choice, and circle nav button styles
 */
 html {
   font-family: "Roboto Serif";
-  background: #333333;
-  color: #c5c8c6;
+  background: #f8f9fb;
+  color: #100c08;
 }
 
 p, li {
@@ -30,31 +13,31 @@ p, li {
 }
 
 a {
-  color: #F29D99;
+  color: #00abe7;
 }
 
 .color_web {
-  color: #F2F997;
+  color: #100c08;
 }
 
 .bg_color_web {
-  background-color: #F2F997;
+  background-color: #100c08;
 }
 
 .color_games {
-  color: #de935f;
+  color: #100c08;
 }
 
 .bg_color_games {
-  background-color: #de935f;
+  background-color: #100c08;
 }
 
 .color_writing {
-  color: #8abeb7;
+  color: #100c08;
 }
 
 .bg_color_writing {
-  background-color: #8abeb7;
+  background-color: #100c08;
 }
 
 .circle {
@@ -79,9 +62,19 @@ a {
   font-size: 1.2em;
 }
 
+.rounded_square {
+  padding: 0.2em;
+  color: #f8f9fb;
+  margin: 0 0.25em;
+  text-decoration: none;
+  border-radius: 0.2em;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
 .icon {
-  width: 65px;
-  height: 65px;
+  width: 45px;
+  height: 45px;
   margin: 0 10px;
   color: #969896;
   text-indent: -9999em;
@@ -90,15 +83,15 @@ a {
 }
 
 .icon.github {
-  background-image: url(../gfx/icon-github-light.png);
+  background-image: url(../gfx/icon-github.png);
 }
 
 .icon.linkedin {
-  background-image: url(../gfx/icon-linkedin-light.png);
+  background-image: url(../gfx/icon-linkedin.png);
 }
 
 .icon.email {
-  background-image: url(../gfx/icon-email-light.png);
+  background-image: url(../gfx/icon-email.png);
 }
 
 /*# sourceMappingURL=common.css.map */
