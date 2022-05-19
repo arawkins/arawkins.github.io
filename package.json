@@ -9,9 +9,13 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "sass": "sass scss:css -w",
-        "browser-sync": "browser-sync --watch --no-notify --server",
-        "dev": "npm run sass & npm run browser-sync"
+        "browser-sync": "browser-sync start --server '_site' --files '_site' --no-notify",
+        "eleventy": "npx @11ty/eleventy --watch",
+        "dev": "npm run sass & npm run browser-sync & npm run eleventy"
     },
-    "author": "Alan Rawkins",
-    "license": "ISC"
+    "author": "Alan Mark Rawkins",
+    "license": "ISC",
+    "devDependencies": {
+        "@11ty/eleventy": "^1.0.1"
+    }
 }
