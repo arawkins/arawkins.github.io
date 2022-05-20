@@ -67,3 +67,17 @@ main {
     height:220px;
     padding-bottom:20px;
 }
+.game-summaries {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap:1em;
+    row-gap:1em;
+}
+
+.game-summary {
+
+}
+
+.game-summary img {
+    width:100%;
+}
