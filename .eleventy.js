@@ -1,11 +1,11 @@
 module.exports = function(eleventyConfig) {
-    eleventyConfig.addPassthroughCopy("css");
-    eleventyConfig.addPassthroughCopy("gfx");
-    eleventyConfig.addPassthroughCopy("js");
+    eleventyConfig.addPassthroughCopy("src/css");
+    eleventyConfig.addPassthroughCopy("src/gfx");
+    eleventyConfig.addPassthroughCopy("src/js");
 
     return  {
         dir: {
-            //input: "src",
+            input: "src",
             includes: "_includes",
             layouts: "_layouts"
         }
