@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+    {% include 'meta' %}
+    <link rel="stylesheet" href="css/home.css?v=1.0">
+</head>
+
+<body>
+
+    <section class="home">
+        <header>
+            {{ content }}
+        </header>
+        <nav class="menu">
+            {% include 'nav-main' %}
+        </nav>
+        <nav class="menu">
+            {% include 'nav-social' %}
+        </nav>
+
+    </section>
+
+    {% include 'scripts' %}
+
+</body>
+</html>
