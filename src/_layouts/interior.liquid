@@ -4,13 +4,14 @@
 
 <head>
     {% include 'meta' %}
+    <title>{{ title }} | Alan Rawkins</title>
     <link rel="stylesheet" href="/css/horizontal.css?v=1.0">
 </head>
 
 <body>
     <section class="interior">
         <header>
-            <h1>Alan Rawkins</h1>
+            <h1><a href="/">Alan Rawkins</a></h1>
             <nav class="horizontal">
                 {% include 'nav-main' %}
             </nav>
@@ -19,8 +20,6 @@
         <main>
             {{ content }}
         </main>
-
-w
     </section>
     {% include 'scripts' %}
 
