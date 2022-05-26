@@ -70,14 +70,14 @@ main {
   padding-bottom: 20px;
 }
 
-.game-summaries {
+.project-summaries {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 1em;
   row-gap: 1em;
 }
 
-.game-summary img {
+.project-summary img {
   width: 100%;
 }
 
