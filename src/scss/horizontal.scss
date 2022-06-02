@@ -1,11 +1,16 @@
 @use 'themes/newspaper' as theme;
 
+$narrow-width: 1024px;
+$wide-width: 1280px;
+$border-style: 10px solid #7cb4bfff;
+
 .interior {
     width:100%;
-    max-width:1024px;
+    max-width:$narrow-width;
     margin:0 auto;
     padding-top:30px;
 }
+
 
 .horizontal {
     display:flex;
@@ -18,7 +23,7 @@
 header {
     display:flex;
     padding:0.25em 0;
-    border-bottom:10px solid #7cb4bfff;
+    border-bottom:$border-style;
 }
 
 nav {
@@ -82,8 +87,28 @@ main {
     list-style:none;
     margin:0;
     padding:0;
+    justify-content: center;
+    align-content: center;
 }
 
 .project-summary img {
     width:100%;
+}
+
+
+footer {
+    border-top:$border-style;
+    padding:1em;
+    margin-top:1em;
+    text-align:center;
+    font-size:0.9em;
+}
+
+footer .social-nav {
+    display:flex;
+    justify-content: center;
+}
+
+footer .icon {
+    margin:0 5px;
 }

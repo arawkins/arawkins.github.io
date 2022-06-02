@@ -20,7 +20,15 @@
         <main>
             {{ content }}
         </main>
+
+        <footer>
+            <p>Alan Rawkins<br>{% include 'nav-main' %}</p>
+            <p class="social-nav">{% include 'nav-social' %}</p>
+            <p>Made with <a href="https://www.11ty.dev/">eleventy</a></p>
+        </footer>
+
     </section>
+
     {% include 'scripts' %}
 
 </body>
