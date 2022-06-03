@@ -66,8 +66,17 @@ main {
   align-content: center;
 }
 
-.project-summaries img {
+.project-summaries a img {
   width: 100%;
+  transition: scale 0.2s;
+}
+
+.project-summaries a:hover img {
+  scale: 1.05;
+}
+
+.more-spark {
+  display: none;
 }
 
 footer {

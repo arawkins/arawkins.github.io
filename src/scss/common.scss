@@ -17,6 +17,19 @@ p, li {
     // font-family: "Times", "Times New Roman", serif;
 }
 
+.hidden {
+    display:none;
+    height:0;
+    transition:height 2s;
+}
+
+.view-more {
+    background:#EEE;
+    padding:0.25em;
+    color:theme.$link-color;
+    cursor: pointer;
+}
+
 a {
     color: theme.$link-color;
 }

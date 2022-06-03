@@ -1,10 +1,21 @@
 window.onload = () => {
-    var lightboxOptions = {
+    let lightboxOptions = {
         overlayOpacity: 0.8,
     };
-    var lightboxSpark = new SimpleLightbox('.gallery-spark a', lightboxOptions);
-    var lightboxUofG = new SimpleLightbox('.gallery-uofg a', lightboxOptions);
-    var lightboxNetfirms = new SimpleLightbox('.gallery-netfirms a', lightboxOptions);
-    var lightboxBestBuy = new SimpleLightbox('.gallery-bestbuy a', lightboxOptions);
-    var lightboxBCWeb = new SimpleLightbox('.gallery-bcweb a', lightboxOptions);
+    let lightboxSpark = new SimpleLightbox('.gallery-spark a', lightboxOptions);
+    let lightboxUofG = new SimpleLightbox('.gallery-uofg a', lightboxOptions);
+    let lightboxNetfirms = new SimpleLightbox('.gallery-netfirms a', lightboxOptions);
+    let lightboxBestBuy = new SimpleLightbox('.gallery-bestbuy a', lightboxOptions);
+    let lightboxBCWeb = new SimpleLightbox('.gallery-bcweb a', lightboxOptions);
+
+    // initialize 'view more' links. First, get all instances of the link
+    let viewMoreLinks = document.querySelectorAll('.view-more');
+
+    // now loop through them all and listen for clicks on all of them
+    viewMoreLinks.forEach((node) => {
+        node.addEventListener("click", (e) => {
+            // on a click, we want to toggle the hidden class on the next adjacent DOM element
+            node.nextElementSibling.classList.toggle('hidden');
+        });
+    });
 }
