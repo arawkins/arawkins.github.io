@@ -1,0 +1,111 @@
+/* Common CSS styles
+Includes font choice, and circle nav button styles
+*/
+html {
+  font-family: "Roboto Serif";
+  background: #f8f9fb;
+  color: #100c08;
+  padding: 0.5em 1em;
+}
+
+p, li {
+  line-height: 1.6em;
+  font-size: 1.2em;
+}
+
+.hidden {
+  display: none;
+  height: 0;
+  transition: height 2s;
+}
+
+.view-more {
+  background: #EEE;
+  padding: 0.25em;
+  color: #00abe7;
+  cursor: pointer;
+}
+
+a {
+  color: #00abe7;
+}
+
+.color_web {
+  color: #100c08;
+}
+
+.bg_color_web {
+  background-color: #100c08;
+}
+
+.color_games {
+  color: #100c08;
+}
+
+.bg_color_games {
+  background-color: #100c08;
+}
+
+.color_writing {
+  color: #100c08;
+}
+
+.bg_color_writing {
+  background-color: #100c08;
+}
+
+.circle {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 50%;
+  margin: 10px;
+  font-size: 0.8em;
+  color: #100c08;
+  font-weight: bold;
+  width: 65px;
+  height: 40px;
+  padding-top: 25px;
+}
+
+.large.circle {
+  width: 150px;
+  height: 85px;
+  padding-top: 65px;
+  font-size: 1.2em;
+}
+
+.rounded_square {
+  padding: 0.2em;
+  color: #f8f9fb;
+  margin: 0 0.25em;
+  text-decoration: none;
+  border-radius: 0.2em;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.icon {
+  width: 45px;
+  height: 45px;
+  margin: 0 10px;
+  color: #969896;
+  text-indent: -9999em;
+  background-size: 100%;
+  display: block;
+}
+
+.icon.github {
+  background-image: url(../gfx/icon-github.png);
+}
+
+.icon.linkedin {
+  background-image: url(../gfx/icon-linkedin.png);
+}
+
+.icon.email {
+  background-image: url(../gfx/icon-email.png);
+}
+
+/*# sourceMappingURL=common.css.map */

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg54821"
+   inkscape:version="1.1.2 (08b2f3d93c, 2022-04-05)"
+   sodipodi:docname="all-icons.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview54823"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.75366162"
+     inkscape:cx="397.3932"
+     inkscape:cy="561.25984"
+     inkscape:window-width="1920"
+     inkscape:window-height="1031"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs54818" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g99053"
+       transform="matrix(1.0216329,0,0,1.0216329,41.627906,74.872172)"
+       style="fill:#100c08;fill-opacity:1">
+      <path
+         clip-rule="evenodd"
+         d="M 16.003,0 C 7.17,0 0.008,7.162 0.008,15.997 c 0,7.067 4.582,13.063 10.94,15.179 0.8,0.146 1.052,-0.328 1.052,-0.752 0,-0.38 0.008,-1.442 0,-2.777 C 7.551,28.614 6.629,25.54 6.629,25.54 5.902,23.692 4.854,23.2 4.854,23.2 3.402,22.208 4.963,22.227 4.963,22.227 c 1.605,0.113 2.451,1.649 2.451,1.649 1.427,2.443 3.743,1.737 4.654,1.329 0.146,-1.034 0.56,-1.739 1.017,-2.139 C 9.533,22.662 5.799,21.29 5.799,15.16 5.799,13.413 6.422,11.986 7.445,10.868 7.28,10.464 6.73,8.837 7.602,6.634 c 0,0 1.343,-0.43 4.398,1.641 1.276,-0.355 2.645,-0.532 4.005,-0.538 1.359,0.006 2.727,0.183 4.005,0.538 3.055,-2.07 4.396,-1.641 4.396,-1.641 0.872,2.203 0.323,3.83 0.159,4.234 1.023,1.118 1.644,2.545 1.644,4.292 0,6.146 -3.74,7.498 -7.304,7.893 C 19.479,23.548 20,24.508 20,26 c 0,2 0,3.902 0,4.428 0,0.428 0.258,0.901 1.07,0.746 C 27.422,29.055 32,23.062 32,15.997 32,7.162 24.838,0 16.003,0 Z"
+         fill="#181616"
+         fill-rule="evenodd"
+         id="path99027"
+         style="fill:#100c08;fill-opacity:1" />
+      <g
+         id="g99029"
+         style="fill:#100c08;fill-opacity:1" />
+      <g
+         id="g99031"
+         style="fill:#100c08;fill-opacity:1" />
+      <g
+         id="g99033"
+         style="fill:#100c08;fill-opacity:1" />
+      <g
+         id="g99035"
+         style="fill:#100c08;fill-opacity:1" />
+      <g
+         id="g99037"
+         style="fill:#100c08;fill-opacity:1" />
+      <g
+         id="g99039"
+         style="fill:#100c08;fill-opacity:1" />
+    </g>
+    <g
+       style="clip-rule:evenodd;fill:#100c08;fill-opacity:1;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2"
+       id="g99064"
+       transform="matrix(0.06755923,0,0,0.06755923,84.188759,74.085542)"
+       inkscape:export-filename="/home/arawkins/Projects/rawkins-timeline/gfx/icon-linkedin.png"
+       inkscape:export-xdpi="67.55645"
+       inkscape:export-ydpi="67.55645">
+      <path
+         d="M 256,0 C 397.29,0 512,114.71 512,256 512,397.29 397.29,512 256,512 114.71,512 0,397.29 0,256 0,114.71 114.71,0 256,0 Z M 175.963,399.871 V 199.95 h -66.464 v 199.921 z m 239.62,0 V 285.225 c 0,-61.409 -32.787,-89.976 -76.509,-89.976 -35.255,0 -51.047,19.389 -59.889,33.007 V 199.95 h -66.447 c 0.881,18.757 0,199.921 0,199.921 h 66.446 v -111.65 c 0,-5.976 0.43,-11.95 2.191,-16.221 4.795,-11.935 15.737,-24.299 34.095,-24.299 24.034,0 33.663,18.34 33.663,45.204 V 399.871 Z M 143.18,103.55 c -22.74,0 -37.597,14.95 -37.597,34.545 0,19.182 14.405,34.544 36.717,34.544 h 0.429 c 23.175,0 37.6,-15.362 37.6,-34.544 C 179.899,118.5 165.905,103.55 143.18,103.55 Z"
+         id="path99055"
+         style="fill:#100c08;fill-opacity:1" />
+    </g>
+    <path
+       id="path99207"
+       style="fill:#100c08;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.585436"
+       d="m 145.16036,73.917656 c -9.69981,0 -17.56327,7.86346 -17.56327,17.56327 0,9.699804 7.86346,17.562744 17.56327,17.562744 9.69981,0 17.56275,-7.86294 17.56275,-17.562744 0,-9.69981 -7.86294,-17.56327 -17.56275,-17.56327 z m -10.13271,10.80813 h 20.2649 l -10.13219,8.78137 z m -0.67541,0.67541 7.43055,6.41718 -7.43055,6.417176 z m 21.61624,0 v 12.834356 l -7.43055,-6.417176 z m -13.5449,7.13393 2.73678,2.24637 2.69388,-2.24637 7.43831,6.376356 h -20.2649 z"
+       inkscape:export-filename="/home/arawkins/Projects/rawkins-timeline/gfx/icon-email.png"
+       inkscape:export-xdpi="72.311081"
+       inkscape:export-ydpi="72.311081" />
+    <g
+       id="g99053-7"
+       transform="matrix(1.0216329,0,0,1.0216329,42.65142,117.29339)"
+       style="fill:#c5c8c6;fill-opacity:1"
+       inkscape:export-filename="/home/arawkins/Projects/rawkins-timeline/gfx/icon-github-light.png"
+       inkscape:export-xdpi="67.55645"
+       inkscape:export-ydpi="67.55645">
+      <path
+         clip-rule="evenodd"
+         d="M 16.003,0 C 7.17,0 0.008,7.162 0.008,15.997 c 0,7.067 4.582,13.063 10.94,15.179 0.8,0.146 1.052,-0.328 1.052,-0.752 0,-0.38 0.008,-1.442 0,-2.777 C 7.551,28.614 6.629,25.54 6.629,25.54 5.902,23.692 4.854,23.2 4.854,23.2 3.402,22.208 4.963,22.227 4.963,22.227 c 1.605,0.113 2.451,1.649 2.451,1.649 1.427,2.443 3.743,1.737 4.654,1.329 0.146,-1.034 0.56,-1.739 1.017,-2.139 C 9.533,22.662 5.799,21.29 5.799,15.16 5.799,13.413 6.422,11.986 7.445,10.868 7.28,10.464 6.73,8.837 7.602,6.634 c 0,0 1.343,-0.43 4.398,1.641 1.276,-0.355 2.645,-0.532 4.005,-0.538 1.359,0.006 2.727,0.183 4.005,0.538 3.055,-2.07 4.396,-1.641 4.396,-1.641 0.872,2.203 0.323,3.83 0.159,4.234 1.023,1.118 1.644,2.545 1.644,4.292 0,6.146 -3.74,7.498 -7.304,7.893 C 19.479,23.548 20,24.508 20,26 c 0,2 0,3.902 0,4.428 0,0.428 0.258,0.901 1.07,0.746 C 27.422,29.055 32,23.062 32,15.997 32,7.162 24.838,0 16.003,0 Z"
+         fill="#181616"
+         fill-rule="evenodd"
+         id="path99027-7"
+         style="fill:#c5c8c6;fill-opacity:1" />
+      <g
+         id="g99029-6"
+         style="fill:#c5c8c6;fill-opacity:1" />
+      <g
+         id="g99031-4"
+         style="fill:#c5c8c6;fill-opacity:1" />
+      <g
+         id="g99033-3"
+         style="fill:#c5c8c6;fill-opacity:1" />
+      <g
+         id="g99035-0"
+         style="fill:#c5c8c6;fill-opacity:1" />
+      <g
+         id="g99037-3"
+         style="fill:#c5c8c6;fill-opacity:1" />
+      <g
+         id="g99039-0"
+         style="fill:#c5c8c6;fill-opacity:1" />
+    </g>
+    <g
+       style="clip-rule:evenodd;fill:#c5c8c6;fill-opacity:1;fill-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2"
+       id="g99064-9"
+       transform="matrix(0.06755923,0,0,0.06755923,85.212273,116.50676)"
+       inkscape:export-filename="/home/arawkins/Projects/rawkins-timeline/gfx/icon-linkedin-light.png"
+       inkscape:export-xdpi="67.55645"
+       inkscape:export-ydpi="67.55645">
+      <path
+         d="M 256,0 C 397.29,0 512,114.71 512,256 512,397.29 397.29,512 256,512 114.71,512 0,397.29 0,256 0,114.71 114.71,0 256,0 Z M 175.963,399.871 V 199.95 h -66.464 v 199.921 z m 239.62,0 V 285.225 c 0,-61.409 -32.787,-89.976 -76.509,-89.976 -35.255,0 -51.047,19.389 -59.889,33.007 V 199.95 h -66.447 c 0.881,18.757 0,199.921 0,199.921 h 66.446 v -111.65 c 0,-5.976 0.43,-11.95 2.191,-16.221 4.795,-11.935 15.737,-24.299 34.095,-24.299 24.034,0 33.663,18.34 33.663,45.204 V 399.871 Z M 143.18,103.55 c -22.74,0 -37.597,14.95 -37.597,34.545 0,19.182 14.405,34.544 36.717,34.544 h 0.429 c 23.175,0 37.6,-15.362 37.6,-34.544 C 179.899,118.5 165.905,103.55 143.18,103.55 Z"
+         id="path99055-2"
+         style="fill:#c5c8c6;fill-opacity:1" />
+    </g>
+    <path
+       id="path99207-5"
+       style="fill:#c5c8c6;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.585436"
+       d="m 145.35345,115.98151 c -9.69983,0 -17.56328,7.86345 -17.56328,17.56327 0,9.69981 7.86345,17.56275 17.56328,17.56275 9.69981,0 17.56275,-7.86294 17.56275,-17.56275 0,-9.69982 -7.86294,-17.56327 -17.56275,-17.56327 z m -10.13272,10.80812 h 20.26491 l -10.13219,8.78138 z m -0.6754,0.67541 7.43052,6.41718 -7.43052,6.41718 z m 21.61624,0 v 12.83436 l -7.43056,-6.41718 z m -13.54492,7.13394 2.7368,2.24637 2.69388,-2.24637 7.43831,6.37635 h -20.26491 z"
+       inkscape:export-filename="/home/arawkins/Projects/rawkins-timeline/gfx/icon-email-light.png"
+       inkscape:export-xdpi="66.529999"
+       inkscape:export-ydpi="66.529999" />
+  </g>
+</svg>

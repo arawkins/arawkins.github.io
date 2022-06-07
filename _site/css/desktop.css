@@ -1,0 +1,21 @@
+body {
+  padding: 0;
+}
+
+header {
+  display: flex;
+}
+
+h1 {
+  flex-grow: 1;
+}
+
+nav a {
+  margin: 0 0 0 1.5em;
+}
+
+.interior .project-summaries {
+  grid-template-columns: 1fr 1fr;
+}
+
+/*# sourceMappingURL=desktop.css.map */
