@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    {% include 'meta' %}
+    <title>{{ title }} | Alan Rawkins</title>
+    <link rel="stylesheet" href="/css/horizontal.css?v=1.0">
+    <link rel="stylesheet" href="/css/desktop.css" media="screen and (min-width:800px)">
+</head>
+
+<body>
+
+    <section class="interior">
+
+        <header>
+            <h1><a href="/">Alan Rawkins</a></h1>
+            <nav class="horizontal">
+                {% include 'nav-main' %}
+            </nav>
+        </header>
+
+        <main>
+            <article class="clearfix" itemscope itemtype="http://schema.org/VideoGame">
+
+                <h3 itemprop="name">{{ title }}</h3>
+
+                <div class="gameEmbed" style="padding-bottom:1em">
+                    <object bgcolor="#000000" id="gameswf" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="640" height="480">
+                    <param name="movie" value="{{ swf }}" />
+                    <param name="bgcolor" value="000000" />
+                    <param name="play" value=true />
+                    <param name="loop" value=false />
+                    <!--[if !IE]>-->
+                     <object type="application/x-shockwave-flash" bgcolor="#000000" data="/swf/TugboatCaptain.swf" width="640" height="480">
+                    <!--<![endif]-->
+                    <a href="http://get.adobe.com/flashplayer/"><img src="/gfx/get_flashplayer.gif" alt="Get Adobe Flash player" /> </a>
+                    <!--[if !IE]>--> </object> <!--<![endif]-->
+                    </object>
+
+                </div>
+
+                {{ content }}
+
+            </article>
+
+        </main>
+
+        <footer>
+            <p>Alan Rawkins<br>{% include 'nav-main' %}</p>
+            <p class="social-nav">{% include 'nav-social' %}</p>
+            <p>Made with <a href="https://www.11ty.dev/">eleventy</a></p>
+        </footer>
+
+    </section>
+
+    {% include 'scripts' %}
+
+</body>
+
+</html>
