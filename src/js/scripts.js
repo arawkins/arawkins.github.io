@@ -16,6 +16,15 @@ window.onload = () => {
         node.addEventListener("click", (e) => {
             // on a click, we want to toggle the hidden class on the next adjacent DOM element
             node.nextElementSibling.classList.toggle('hidden');
+
+            // If the link says "+ View more..." change it to "- Hide more...", and vice versa
+            let linkText = node.innerHTML;
+            if (linkText.charAt(0) === "+") {
+                linkText = linkText.replace("+ View", "- Hide");
+            } else if (linkText.charAt(0) === "-") {
+                linkText = linkText.replace("- Hide", "+ View");
+            }
+            node.innerHTML = linkText;
         });
     });
 }
