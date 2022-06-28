@@ -3,8 +3,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("src/gfx");
     eleventyConfig.addPassthroughCopy("src/js");
     eleventyConfig.addPassthroughCopy("src/swf");
-    eleventyConfig.addPassthroughCopy("src/games/deserted-space")
-    eleventyConfig.addPassthroughCopy("src/games/goldbergborous")
+    eleventyConfig.addPassthroughCopy("src/bin");
 
     return  {
         dir: {

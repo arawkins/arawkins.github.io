@@ -1,0 +1,276 @@
+/* =General stuff
+----------------------------------------------- */
+
+@font-face {
+    font-family: 'GrilledCheeseBTNRegular';
+    src: url('../fonts/grilcb_-webfont.eot');
+    src: url('../fonts/grilcb_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/grilcb_-webfont.woff') format('woff'),
+         url('../fonts/grilcb_-webfont.ttf') format('truetype'),
+         url('../fonts/grilcb_-webfont.svg#GrilledCheeseBTNRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+* {
+	margin:0;
+	padding:0;
+	}
+
+img {
+	border:0;
+	}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.left {
+	float:left;
+	clear:left;
+	margin-right:10px;
+	margin-bottom:10px;
+	}
+
+.right {
+	float:right;
+	clear:right;
+	margin-left:10px;
+	margin-bottom:10px;
+	}
+
+#container {
+	background:#1E6880 url(/gfx/dolphinup/blue_bg.gif) 0 190px repeat-x;
+	width:100%;
+	}
+
+#content {
+	position:relative;
+	width:668px;
+	margin:0 auto;
+
+	}
+
+/* =Type
+----------------------------------------------- */
+
+h2, h3, h4, p, a, li {
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	margin:1em 0;
+	line-height:1.2em;
+	}
+
+h2, h3, h4 {
+	font-family:GrilledCheeseBTNRegular, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	}
+
+ul, ol {
+	margin-left:10px;
+	padding-left:10px;
+	}
+
+
+/* =Header
+----------------------------------------------- */
+
+#header {
+	padding:0;
+	background:url(/gfx/dolphinup/header_bg.gif) repeat-x;
+
+
+	}
+
+#header h1 {
+	text-align:center;
+	height:178px;
+	padding:30px 0 0 0 ;
+	background:url(/gfx/dolphinup/wave.png) 0 188px repeat-x;
+	}
+
+
+
+#social-buttons {
+	position:absolute;
+	top:0;
+	right:0;
+	width:2em;
+	padding:2em 1em 0 0;
+	}
+
+#social-buttons img {
+	width:2em;
+	height:2em;
+	float:left;
+	padding:0.2em 0 ;
+	}
+
+/* =Nav
+----------------------------------------------- */
+
+#nav {
+	list-style:none;
+	margin:2em 0 0 0;
+	padding:0;
+	width:100%;
+
+	float:left;
+	}
+
+#nav li {
+	list-style:none;
+	float:left;
+	margin:0;
+	padding:0;
+	}
+
+#nav li a {
+font-family:GrilledCheeseBTNRegular, Arial, Helvetica, sans-serif;
+		border-radius: 15px;
+	background:#195062;
+	text-decoration:none;
+	color:#FFF;
+	display:block;
+	margin:0.5em;
+	padding:0.5em 1em;
+	}
+#nav li a.socialButton {
+	background:none;
+	padding:0;
+	}
+
+#nav li a.socialButton img {
+	width:2em;
+	}
+
+#nav li a#webGameLink {
+	background:#FF9900;
+	}
+
+
+
+/* =Primary
+----------------------------------------------- */
+
+#trailer {
+    margin:1em 0;
+    width:100%;
+    clear:both;
+}
+#primary {
+	width:50%;
+	float:right;
+	padding:0 0 0 0;
+	}
+
+
+#store-badges img{
+    width:80%;
+    margin:20px 10% 0 10%;
+    text-align:right;
+    }
+
+#primary.standalone {
+	width:100%;
+	padding:1em 0 0 0;
+	}
+
+.trick {
+	width:42%;
+	min-height:8em;
+	margin:2%;
+	padding:2%;
+	float:left;
+	background:#2992B5;
+	border-radius: 15px;
+	}
+.trick.odd {
+	clear:left;
+	margin-left:0;
+	}
+
+.trick p, .trick h3 {
+	margin:0;
+	padding:0;
+	}
+
+.trick p {
+	font-size:0.8em;
+	}
+
+.trick .value {
+	font-weight:bold;
+	padding-top:5px;
+	}
+
+/* =Secondary
+----------------------------------------------- */
+
+#secondary {
+	width:45%;
+	float:left;
+	padding:0 0 0 0;
+	clear:both;
+	}
+
+/* =Screenshots
+----------------------------------------------- */
+#screenshots {
+
+	}
+
+.screenshot {
+	float:left;
+	padding:6px;
+	margin:0;
+	}
+
+.pagination {
+	list-style:none;
+	}
+
+.pagination li {
+	float:left;
+	list-style:none;
+	}
+
+.pagination li a {
+	display:block;
+	text-decoration:none;
+	background:#006699;
+	padding:5px;
+	margin:5px;
+	}
+
+.pagination li.current a {
+	background:#0099CC;
+	}
+
+#secondary .fb-like  {
+	width:100%;
+	background:#334b65;
+	padding:10px;
+	border-radius:5px;
+	}
+
+#secondary .fb-like span {
+	color:#FFF;
+	}
+
+/* =Footer
+----------------------------------------------- */
+
+#footer  {
+	margin-top:50px;
+	height:90px;
+	width:100%;
+	background:url(/gfx/dolphinup/sand_bg.gif) repeat-x;
+	position:relative;
+	top:0px;
+	}

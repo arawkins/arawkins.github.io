@@ -1,0 +1,54 @@
+#primary form .required {
+  color: #F00;
+}
+
+#primary form p {
+  clear: left;
+}
+
+#primary form .hidden {
+  display: none;
+}
+
+label {
+  float: left;
+  display: block;
+  clear: left;
+  font-weight: bold;
+  width: 10em;
+}
+
+#primary form input.error {
+  border: 1px solid #F00;
+}
+
+#primary form h4 {
+  clear: left;
+}
+
+#primary form label.noFloat {
+  width: auto;
+  float: none;
+}
+
+#primary form textarea {
+  width: 80%;
+  height: 10em;
+  margin: 1em 0;
+}
+
+#primary form label.wide {
+  width: 100%;
+  float: none;
+  clear: both;
+}
+
+#primary form .submit {
+  margin-left: 150px;
+}
+
+#primary form .submit.wide {
+  margin-left: 0;
+}
+
+/*# sourceMappingURL=forms.css.map */

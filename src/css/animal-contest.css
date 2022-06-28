@@ -1,0 +1,62 @@
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 72px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 56px;
+  color: black;
+  clear: left;
+  background-color: aqua;
+}
+
+.heading-dogs {
+  background-color: orange;
+}
+
+.heading-cats {
+  background-color: plum;
+}
+
+.heading-wildlife {
+  background-color: rgb(112, 165, 34);
+}
+
+.heading-Rabbits {
+  background-color: rgb(236, 128, 146);
+}
+
+.heading-horses {
+  background-color: rgb(248, 171, 143);
+}
+
+.heading-monsters {
+  background-color: rgb(40, 226, 40);
+}
+
+p {
+  font-size: 37px;
+}
+
+@media (min-width: 30em) {
+  .entry {
+    width: 32%;
+    float: left;
+    margin-right: 1%;
+  }
+}
+.entry img {
+  width: 100%;
+}
+
+.credit {
+  clear: left;
+  text-align: center;
+}
+
+/*# sourceMappingURL=animal-contest.css.map */
