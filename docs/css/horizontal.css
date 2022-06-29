@@ -66,12 +66,12 @@ main {
   align-content: center;
 }
 
-.project-summaries a img {
+.project-summaries img {
   width: 100%;
   transition: scale 0.2s;
 }
 
-.project-summaries a:hover img {
+.project-summaries img:hover {
   scale: 1.05;
 }
 

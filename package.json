@@ -9,7 +9,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "sass": "sass src/scss:src/css -w",
-        "browser-sync": "browser-sync start --server '_site' --files '_site' --no-notify",
+        "browser-sync": "browser-sync start --server 'docs' --files 'docs' --no-notify",
         "eleventy": "npx @11ty/eleventy --watch",
         "dev": "npm run sass & npm run browser-sync & npm run eleventy"
     },
