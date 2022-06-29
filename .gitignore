@@ -2,5 +2,6 @@ node_modules/
 .git
 docs/*lock*
 designs
-docs
 rawkins.com.old
+notes
+_site
