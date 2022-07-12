@@ -1,3 +1,4 @@
-<a href="/webdev" class="">webdev</a>
-<a href="/games" class="">games</a>
+<a href="/">home</a>
+<a href="/webdev" {% if page.url contains "webdev" %} class="selected"{% endif %}>webdev</a>
+<a href="/games" {% if page.url contains "games" %} class="selected"{% endif %}>games</a>
 <a href="#">contact</a>

@@ -14,7 +14,7 @@
 }
 
 header {
-  padding: 0.25em 0;
+  padding: 0.25em 0 0 0;
   border-bottom: 10px solid #7cb4bf;
 }
 
@@ -46,7 +46,14 @@ nav {
 nav a {
   text-decoration: none;
   color: #000;
-  margin: 0 0.5em 0 0;
+  margin: 0 0 0 0;
+  padding: 0.2em 0.4em;
+  transition: color 0.2s, background-color 0.2s;
+}
+
+nav a.selected, nav a:hover {
+  background: #7cb4bf;
+  color: #FFF;
 }
 
 main {
