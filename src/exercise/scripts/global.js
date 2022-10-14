@@ -50,7 +50,7 @@ var loadedFiles = [];
 
 		// Here I'm checking options.hash, which is passed by handlebars, to see if any options were set. If so, I overwrite the defaults.
 		if (typeof options != undefined && typeof options.hash != undefined) {
-			let errorPrefix = "formatDate helper param error: "
+			let errorPrefix = "formatDate helper param error: ";
 			if (options.hash.hasOwnProperty("dateFormat")) {
 				// There are 6 formatting options in getDateStr below, so check if the value is between 1 and 6. If not, let the user know.
 				if(typeof options.hash.dateFormat === "number" && options.hash.dateFormat >= 1 && options.hash.dateFormat <=6) {
