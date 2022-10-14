@@ -1,0 +1,140 @@
+html,
+body {
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	overflow: hidden;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+nav {
+	background: #2f305a;
+	height: 30px;
+	line-height: 30px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	width: 90%;
+}
+
+nav ul li {
+	display: inline-block;
+	vertical-align: middle;
+	width: 100px;
+}
+
+nav ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+nav ul li a:hover,
+nav ul li a.current {
+	color: #f5991c;
+}
+
+.content {
+	margin: 0 auto;
+	width: 90%;
+}
+
+.loadingImg {
+	margin: 20px auto;
+	display: block;
+}
+
+p {
+	margin: 20px 0;
+}
+
+table {
+	width: 100%;
+	border: 0;
+}
+
+table th {
+	text-align: left;
+}
+
+table th,
+table td {
+	padding-left: 10px;
+}
+
+table th:first-child,
+table td:first-child {
+	padding-left: 0;
+}
+
+tr {
+	height:30px;
+}
+
+.editable tr {
+	cursor: pointer;
+}
+
+.editable tr:hover {
+	background:#EFEFEF;
+}
+
+
+.fn, .ln {
+	width:25%;
+	position:relative;
+}
+
+.date, .place {
+	width:25%;
+}
+
+.actions {
+	width:25%;	
+}
+
+.actions a {
+	display:none;
+}
+
+tr:hover .actions a {
+	display:inline;
+}
+
+
+.tooltip {
+	position:absolute;
+	z-index:100;
+	left:-10000px;
+	top:-10px;
+	background:#FFF;
+	border-radius:5px;
+	box-shadow: 5px 5px #888888;
+	width:400px;
+	border:1px solid #CCC;
+	padding:15px;
+	font-size:0.9em;
+	opacity: 0;
+    transition: opacity 0.2s linear;
+}
+
+a:hover + .tooltip {
+	opacity:1;
+	left:100px;
+}

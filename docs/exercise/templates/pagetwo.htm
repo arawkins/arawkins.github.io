@@ -1,0 +1,19 @@
+<p>{{msgStrs 'pageTwotext'}}</p>
+<table>
+	<thead>
+		<tr>
+			<th class="fn">{{msgStrs 'firstname'}}</th>
+			<th class="ln">{{msgStrs 'lastname'}}</th>
+			<th class="date modified">{{msgStrs 'modified'}}</th>
+		</tr>
+	</thead>
+	<tbody>
+		{{#each this}}
+			<tr>
+				<td class="fn"><a href="#">{{{firstName}}}</a></td>
+				<td class="ln"><a href="#">{{{lastName}}}</a></td>
+				<td class="date modified">{{formatDate modified dateFormat=6 dateOnly=true}}</td>
+			</tr>
+		{{/each}}
+	</tbody>
+</table>

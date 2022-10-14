@@ -1,0 +1,36 @@
+<p>{{msgStrs 'pageThreetext'}}</p>
+<table>
+	<thead>
+		<tr>
+			<th class="fn">{{msgStrs 'firstname'}}</th>
+			<th class="ln">{{msgStrs 'lastname'}}</th>
+			<th class="place">{{msgStrs 'place'}}</th>
+            <th class="action">&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody class="editable">
+		{{#each this}}
+			<tr>
+				<td class="fn">
+                    <a href="{{username}}">{{{firstName}}}</a>
+                    <p class="tooltip">
+                        Created by {{createdBy}} on {{formatDate created}}<br>
+                        Modified by {{modifiedBy}} on {{formatDate modified}}
+                    </p>
+                </td>
+				<td class="ln">
+                    <a href="{{username}}">{{{lastName}}}</a>
+                    <p class="tooltip">
+                        Created by {{createdBy}} on {{formatDate created}}<br>
+                        Modified by {{modifiedBy}} on {{formatDate modified}}
+                    </p>
+                </td>
+				<td class="place"><a href="{{location.id}}">{{location.name}}</a></td>
+                <td class="actions">
+                    <a href="{{username}}" class="edit"><img src="images/icn-edit.png"></a>
+                    <a href="{{username}}" class="delete"><img src="images/icn-delete.png"></a>
+                </td>
+			</tr>
+		{{/each}}
+	</tbody>
+</table>
