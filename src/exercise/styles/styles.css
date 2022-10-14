@@ -87,15 +87,6 @@ tr {
 	height:30px;
 }
 
-.editable tr {
-	cursor: pointer;
-}
-
-.editable tr:hover {
-	background:#EFEFEF;
-}
-
-
 .fn, .ln {
 	width:25%;
 	position:relative;
@@ -109,6 +100,19 @@ tr {
 	width:25%;	
 }
 
+/* 
+	The following two styles were added to 
+	make it easier to hover across to the 
+	action buttons at the end of the row
+*/
+.editable tr {
+	cursor: pointer;
+}
+
+.editable tr:hover {
+	background:#EFEFEF;
+}
+
 .actions a {
 	display:none;
 }
@@ -117,6 +121,11 @@ tr:hover .actions a {
 	display:inline;
 }
 
+/*
+	The tooltip hides off the left of the screen,
+	and then is pulled into place and faded in
+	on hover of the neighboring <a> tag.
+*/
 .tooltip {
 	position:absolute;
 	z-index:100;
