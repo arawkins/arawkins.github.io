@@ -7,31 +7,56 @@ var loadedFiles = [];
 		return new Handlebars.SafeString(str);
 	});
 	Handlebars.registerHelper("formatDate", function (str, options) {
-		// the date formatting helper can accept the following options:
-		// dateFormat
-		// 	a number between 1 and 6. Default is 5. This value is used in getDateStr function below to control how dates are formatted
-		// 	eg. {{ formatDate modified format=1}}
-		// dateOnly
-		//	a boolean. If true, the date will not show the hours, minutes, and seconds. Default is false
-		// 	eg. {{ formatDate modified dateOnly=true}}
-		// locale
-		//	a string containing the browsers locale. Currently not used within the application. Default is the default browser language, set in navigator.languages[0];
-		//	eg. {{ formateDate modified locale="en-US"}}
+		/**
+		 * @function formatDate - A function to format the dates in the templates
+		 * 
+		 * - Note to CarriersEdge: I've added some code here to check for options from the handlebars templates, 
+		 * including the ability to choose how the date is formatted. This allows for 
+		 * formatting the date on page two differently, as requested. I also specifically defined some of the other parameters that
+		 * were passed along to getDateStr, which appeared to be undefined. I left the bulk of the code after that alone, 
+		 * with the exception of the getDateStr function, which I've added a line to and commented.
+		 * 
+		 * @param {string} str 
+		 * - A date time string that needs formatting.
+		 * 
+		 * @param {object} options
+		 * - The handlebars helper options object.
+		 * 
+		 * @param {object} options.hash  
+		 * - Contains parameters sent from the handlebars template
+		 * 
+		 * @param {number} [options.hash.dateFormat=5] 
+		 * - A number between 1 and 6. Used to choose from the six formatting options in the function getDateStr below.
+		 * - eg. {{ formatDate modified format=1}}
+		 * 
+		 * @param {boolean} [options.hash.dateOnly=false] 
+		 * - If true, the date will not show the hours, minutes, and seconds.
+		 * - eg. {{ formatDate modified dateOnly=true}}
+		 * 
+		 * @param {string} [options.hash.locale=navigator.language] 
+		 * - The users locale. Defaults to the users chosen browser language
+		 * - eg. {{ formateDate modified locale="en-US"}}
+		 */
 
 
-		// first set the default values.
-		let dateFormat = 5;
-		let locale = navigator.languages[0];
-		let dateOnly = false;
+		/* 
+			Here I'm creating and setting the variables that will be passed to getDateTime.
+		 	I tried to use sensible defaults that mimicked how the app was working in it's original state.
+		   	navigator.language should contain the user's browser language, so that felt like a good default.
+		*/
+		let dateFormat = 5,
+			locale = navigator.language,
+			dateOnly = false;
 
-		// Now lets check options.hash, which is passed by handlebars, to see if any options were set. If so, overwrite the defaults.
+		// Here I'm checking options.hash, which is passed by handlebars, to see if any options were set. If so, I overwrite the defaults.
 		if (typeof options != undefined && typeof options.hash != undefined) {
 			let errorPrefix = "formatDate helper param error: "
 			if (options.hash.hasOwnProperty("dateFormat")) {
+				// There are 6 formatting options in getDateStr below, so check if the value is between 1 and 6. If not, let the user know.
 				if(typeof options.hash.dateFormat === "number" && options.hash.dateFormat >= 1 && options.hash.dateFormat <=6) {
 					dateFormat = options.hash.dateFormat;
 				} else {
-					console.log(errorPrefix + "dateFormat must be a number between 1 and 5");
+					console.log(errorPrefix + "dateFormat must be a number between 1 and 6");
 				}
 			}
 			if (options.hash.hasOwnProperty("dateOnly")) {
@@ -50,6 +75,7 @@ var loadedFiles = [];
 			}
 		}
 		
+		// Finally, call the getDateTime with the selected options, and then return the result.
 		if (str) {
 			str = getDateTime(str, dateOnly, locale, dateFormat);
 		}
@@ -184,6 +210,7 @@ function getDateStr(d, dateOnly, format) {
 	} else if (format == 5) {
 		newTimeStr = d.getFullYear() + '-' + month + '-' + day;
 	} else  {
+		// note to CarriersEdge: I added this to create a sixth formatting option, to format the date mm/dd/yy as requested in exercise 1.
 		newTimeStr = month + '/' + day + '/' + d.getFullYear().toString().substr(2);
 	}
 	if (!dateOnly) {
