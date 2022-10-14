@@ -13,14 +13,15 @@ var loadedFiles = [];
 		 * - Note to CarriersEdge: I've added some code here to check for options from the handlebars templates, 
 		 * including the ability to choose how the date is formatted. This allows for 
 		 * formatting the date on page two differently, as requested. I also specifically defined some of the other parameters that
-		 * were passed along to getDateStr, which appeared to be undefined. I left the bulk of the code after that alone, 
-		 * with the exception of the getDateStr function, which I've added a line to and commented.
+		 * were passed along to getDateTime, which appeared to be undefined. I left the bulk of the code after that alone, 
+		 * with the exception of the getDateStr function, which I added a few lines to and commented.
 		 * 
 		 * @param {string} str 
 		 * - A date time string that needs formatting.
 		 * 
 		 * @param {object} options
 		 * - The handlebars helper options object.
+		 * 	 see https://handlebarsjs.com/guide/expressions.html#helpers-with-hash-arguments
 		 * 
 		 * @param {object} options.hash  
 		 * - Contains parameters sent from the handlebars template
